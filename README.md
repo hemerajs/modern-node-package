@@ -26,6 +26,7 @@ npm run test
 :star2: [standard](https://github.com/standard/standard)
 ```
 npm run format
+npm run lint
 ```
 ## Code coverage
 **Requirements:** Support for common report formats
