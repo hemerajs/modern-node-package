@@ -35,7 +35,7 @@ npm run lint
 ```
 npm run coverage
 ```
-:star2: Send coverage report with [coveralls](https://github.com/nickmerwin/node-coveralls)
+:star2: Send coverage report with [coveralls](https://github.com/nickmerwin/node-coveralls) to [coveralls.io](https://coveralls.io)
 ```
 npm run coveralls
 ```
@@ -56,16 +56,15 @@ np patch
 
 **Requirements:** Free CI for OS
 
-* Travis for Unix
-* Appveyor for Windows
+* [Travis](https://travis-ci.org/) for Unix
+* [Appveyor](https://ci.appveyor.com) for Windows
 
 ## Ignore files
 
-- npmignore
-- gitignore
+- Use a .npmignore file to keep stuff out of your package.
+- Use .gitignore  file to keep stuff out of your repository.
 
 ## Badges
-
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](#badge)
 [![Build Status](https://travis-ci.org//hemerajs/modern-node-package.svg?branch=master)](https://travis-ci.org//hemerajs/modern-node-package)
