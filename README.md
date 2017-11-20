@@ -32,7 +32,7 @@ npm run format
 ```
 npm run coverage
 ```
-- Send coverage report with [coveralls](https://github.com/nickmerwin/node-coveralls)
+:star2: Send coverage report with [coveralls](https://github.com/nickmerwin/node-coveralls)
 ```
 npm run coveralls
 ```
@@ -48,9 +48,6 @@ np patch
 **Requirements:** Define hooks as npm scripts
 
 :star2: [Husky](https://github.com/typicode/husky)
-
-- Travis for Unix
-- Appveyor for Windows
 
 ## Continuous Integration
 
