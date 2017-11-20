@@ -1,6 +1,6 @@
 # Modern Node Package
 
-Modern stack to build server-side Node.js packages
+Modern Stack to build server-side Node.js packages
 
 # What's included?
 
