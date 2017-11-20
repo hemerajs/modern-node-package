@@ -6,7 +6,7 @@ Modern Stack to build server-side Node.js packages
 
 ## Testing
 
-Requirements:
+**Requirements:**
 - Parallel tests
 - Async / Await support
 - Assertion counting
