@@ -2,6 +2,8 @@
 
 Modern stack to build server-side Node.js packages
 
+# What's included?
+
 ## Testing
 
 Requirements:
