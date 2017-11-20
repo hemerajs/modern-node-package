@@ -74,4 +74,4 @@ np patch
 [![Build Status](https://travis-ci.org//hemerajs/modern-node-package.svg?branch=master)](https://travis-ci.org//hemerajs/modern-node-package)
 [![Build status](https://ci.appveyor.com/api/projects/status/58ldk1x962nviv03?svg=true)](https://ci.appveyor.com/project/hemerajs/modern-node-package)
 [![Coverage Status](https://coveralls.io/repos/github/hemerajs/modern-node-package/badge.svg?branch=master)](https://coveralls.io/github/hemerajs/modern-node-package?branch=master)
-[![NPM version](https://img.shields.io/npm/v/bootme.svg?style=flat)](https://www.npmjs.com/package/modern-node-package)
+[![NPM version](https://img.shields.io/npm/v/modern-node-package.svg?style=flat)](https://www.npmjs.com/package/modern-node-package)
