@@ -59,6 +59,10 @@ np patch
 * [Travis](https://travis-ci.org/) for Unix
 * [Appveyor](https://ci.appveyor.com) for Windows
 
+## Maintaining consistent coding styles 
+
+:star2: [Editorconfig](http://editorconfig.org/)
+
 ## Ignore files
 
 - Use a .npmignore file to keep stuff out of your package.
