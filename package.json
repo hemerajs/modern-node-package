@@ -1,0 +1,36 @@
+{
+  "name": "modern-node-package",
+  "version": "0.0.0",
+  "description": "Modern tech setup to build server-side Node.js packages",
+  "main": "src/index.js",
+  "repository": {
+    "url": "git@github.com:hemerajs/modern-node-package.git",
+    "type": "git"
+  },
+  "scripts": {
+    "lint": "standard --verbose | snazzy",
+    "format": "prettier-standard \"./src/**/*.js\" \"./test/**/*.js\"",
+    "test": "npm run format && npm run lint && tap -j4 \"test/*.test.js\"",
+    "coveralls": "npm run test -- --cov",
+    "coverage": "npm run test -- --cov --coverage-report=html",
+    "precommit": "npm test"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "modern",
+    "template"
+  ],
+  "author": "Dustin Deus (https://github.com/StarpTech)",
+  "license": "MIT",
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "husky": "^0.14.3",
+    "np": "^2.17.0",
+    "prettier-standard": "^7.0.3",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3",
+    "tap": "^10.7.3"
+  }
+}
