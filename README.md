@@ -36,12 +36,12 @@ npm run lint
 
 :star2: Istanbul [nyc](https://github.com/istanbuljs/nyc)
 ```
-npm run coverage -- --reporter=html
+npm run coverage
+npm run coverage:html
 ```
 :star2: Send coverage report with [coveralls](https://github.com/nickmerwin/node-coveralls) to [coveralls.io](https://coveralls.io)
 ```
 npm run coverage
-npm run coverage:html
 ```
 ## Publishing
 **Requirements:** Painless NPM publishing
