@@ -1,7 +1,6 @@
 'use strict'
 
-const t = require('tap')
-const test = t.test
+const test = require('ava')
 
 test('Sample', t => {
   t.plan(1)

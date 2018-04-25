@@ -8,11 +8,14 @@ Modern Stack to build server-side Node.js packages
 
 **Requirements:**
 - Parallel tests
+- Isolated tests
 - Async / Await support
 - Assertion counting
+- Good diff reporting
+- TAP reporter
 - Coverage reports
 
-:star2: [tap](https://github.com/tapjs/node-tap)
+:star2: [ava](https://github.com/avajs/ava)
 ```
 npm run test
 ```
@@ -31,13 +34,14 @@ npm run lint
 ## Code coverage
 **Requirements:** Support for common report formats
 
-:star2: Integrate coverage support of [tap](https://github.com/tapjs/node-tap)
+:star2: Istanbul [nyc](https://github.com/istanbuljs/nyc)
 ```
-npm run coverage
+npm run coverage -- --reporter=html
 ```
 :star2: Send coverage report with [coveralls](https://github.com/nickmerwin/node-coveralls) to [coveralls.io](https://coveralls.io)
 ```
-npm run coveralls
+npm run coverage
+npm run coverage:html
 ```
 ## Publishing
 **Requirements:** Painless NPM publishing
@@ -45,6 +49,8 @@ npm run coveralls
 :star2: [np](https://github.com/sindresorhus/np)
 ```
 np patch
+np minor
+np major
 ```
 
 ## Git-Hooks
