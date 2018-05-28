@@ -8,31 +8,31 @@
     "type": "git"
   },
   "scripts": {
-    "lint": "standard --verbose | snazzy",
-    "format": "prettier-standard \"./src/**/*.js\" \"./test/**/*.js\"",
+    "precommit": "pretty-quick --staged && npm run lint && npm run test",
+    "lint": "eslint \"./src/**/*.js\" \"./test/**/*.js\"",
+    "lint:fix": "eslint --fix  \"./src/**/*.js\" \"./test/**/*.js\"",
+    "format": "pretty-quick",
     "test": "npm run lint && ava",
     "test:watch": "ava -w",
     "coverage": "nyc ava",
     "coverage:html": "nyc ava && nyc report --reporter=html",
-    "coveralls": "npm test && nyc report --reporter=text-lcov | coveralls",
-    "precommit": "npm run format && npm run test"
+    "coveralls": "npm test && nyc report --reporter=text-lcov | coveralls"
   },
   "engines": {
     "node": ">=8"
   },
-  "keywords": [
-    "modern",
-    "template"
-  ],
+  "keywords": ["modern", "template"],
   "author": "Dustin Deus (https://github.com/StarpTech)",
   "license": "MIT",
   "devDependencies": {
     "ava": "^0.25.0",
-    "coveralls": "^3.0.0",
+    "coveralls": "^3.0.1",
+    "eslint-config-hemera": "^0.0.6",
     "husky": "^0.14.3",
-    "np": "^2.20.1",
-    "nyc": "^11.7.1",
+    "np": "^3.0.1",
+    "nyc": "^11.8.0",
     "prettier-standard": "^8.0.1",
+    "pretty-quick": "^1.6.0",
     "snazzy": "^7.1.1",
     "standard": "^11.0.1"
   }

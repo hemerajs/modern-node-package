@@ -7,46 +7,67 @@ Modern Stack to build server-side Node.js packages
 ## Testing
 
 **Requirements:**
-- Parallel tests
-- Isolated tests
-- Async / Await support
-- Assertion counting
-- Good diff reporting
-- TAP reporter
-- Coverage reports
+
+* Parallel tests
+* Isolated tests
+* Async / Await support
+* Assertion counting
+* Good diff reporting
+* TAP reporter
+* Coverage reports
 
 :star2: [ava](https://github.com/avajs/ava)
+
 ```
 npm run test
 ```
+
 ## Linting & Formatting
 
 **Requirements:**
-- StandardJs
-- Opinionated Code Formatter
 
-:star2: [prettier-standard](https://github.com/sheerun/prettier-standard)
-:star2: [standard](https://github.com/standard/standard)
+* StandardJs
+* Opinionated Code Formatter
+* Format files on precommit
+
+:star2: [prettier](https://github.com/prettier/prettier)
+
+:star2: [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
+
 ```
 npm run format
 npm run lint
 ```
+
+### Format staged files only
+
+Runs on precommit hooks by hasky package.
+
+:star2: [pretty-quick](https://github.com/azz/pretty-quick)
+
 ## Code coverage
+
 **Requirements:** Support for common report formats
 
 :star2: Istanbul [nyc](https://github.com/istanbuljs/nyc)
+
 ```
 npm run coverage
 npm run coverage:html
 ```
+
 :star2: Send coverage report with [coveralls](https://github.com/nickmerwin/node-coveralls) to [coveralls.io](https://coveralls.io)
+
 ```
 npm run coverage
 ```
+
 ## Publishing
+
 **Requirements:** Painless NPM publishing
 
 :star2: [np](https://github.com/sindresorhus/np)
+
 ```
 np patch
 np minor
@@ -54,6 +75,7 @@ np major
 ```
 
 ## Git-Hooks
+
 **Requirements:** Define hooks as npm scripts
 
 :star2: [Husky](https://github.com/typicode/husky)
@@ -65,14 +87,14 @@ np major
 * [Travis](https://travis-ci.org/) for Unix
 * [Appveyor](https://ci.appveyor.com) for Windows
 
-## Maintaining consistent coding styles 
+## Maintaining consistent coding styles
 
 :star2: [Editorconfig](http://editorconfig.org/)
 
 ## Ignore files
 
-- Use a .npmignore file to keep stuff out of your package.
-- Use .gitignore  file to keep stuff out of your repository.
+* Use a .npmignore file to keep stuff out of your package.
+* Use .gitignore file to keep stuff out of your repository.
 
 ## Badges
 
